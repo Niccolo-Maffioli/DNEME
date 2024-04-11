@@ -1,8 +1,8 @@
 /* font */
 @font-face {
   font-family: "DaisyWheel";
-  src: url('fonts/daisywheel.otf');
-  src: url('fonts/daisywheel.otf') format('embedded-opentype'),
+  src: url('fonts/daisywheel.ttf');
+  src: url('fonts/daisywheel.ttf') format('truetype'),
 }
 
 * {
