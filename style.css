@@ -459,3 +459,26 @@ body {
   font-size: 190px;
   font-family: 'Helvetica Neue', sans-serif;  
 }
+
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .section,.header, .linear, .menu, .intro {
+    display: none;
+  }
+  body .warningSmallScreen {
+    display: block;
+    transform: rotate(90deg);
+    color: #fff;
+    text-align: center;
+  }
+}
+
+.warningSmallScreen {
+  display: none;
+}
