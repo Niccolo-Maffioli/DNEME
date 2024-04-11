@@ -473,7 +473,6 @@ body {
   }
   body .warningSmallScreen {
     display: block;
-    transform: rotate(90deg);
     color: #fff;
     text-align: center;
   }
